@@ -89,7 +89,7 @@
 					<hr>
 					<h3>Atendimentos Registrados</h3>
 					<div class="divtable">
-						<table>
+						<!--<table>
 							  <tr>
 								<th>Nome Paciente</th>
 								<th>Médico</th>
@@ -120,7 +120,7 @@
 								<td>15/05/2014 9:30pm</td>
 								<td><a href class="glyphicon glyphicon-pencil"></a> <a href class="glyphicon glyphicon-remove"></a></td>
 							</tr>
-						</table>
+						</table>-->
 					</div>
 				
 				
