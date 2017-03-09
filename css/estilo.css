@@ -3,7 +3,15 @@
 	padding:1% 2% 2% 2%;	
 	position:relative;
 	margin:10% 30% 0 30%;
-	
+	font-family: 'Dosis', sans-serif;
+}
+
+#loginForm h5 {
+	color:aaa;
+}
+
+#loginForm h2 {
+	color:rgb(10,100,100);
 }
 
 .inputLogin {
