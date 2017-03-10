@@ -20,3 +20,10 @@
 	height:6%;
 	padding-left:2%;
 }
+
+.btn-default {
+	position:absolute;
+	bottom:5%;
+	right:5%;
+	
+}
