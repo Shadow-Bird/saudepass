@@ -4,6 +4,8 @@
 	position:relative;
 	margin:10% 30% 0 30%;
 	font-family: 'Dosis', sans-serif;
+	box-shadow:2px 4px 4px #000;
+	letter-spacing:6px;
 }
 
 #loginForm h5 {
@@ -25,5 +27,21 @@
 	position:absolute;
 	bottom:5%;
 	right:5%;
-	
+	transition:1s;
 }
+
+#btnLogin:hover {
+	background-color:#198080;
+	color:#fff;
+}
+
+.nav li {
+	text-align:center;
+	letter-spacing:6px;
+}
+
+.nav a {
+	color:#198080;
+}
+
+
