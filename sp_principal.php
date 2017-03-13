@@ -4,7 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--remover este script jquery.min.js para nao ocorre conflitos com menu Dropdown-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
 	<!--scripts seguintes sao necessarios para funcionar o dropdown e o navbar-collapse-->
@@ -14,9 +15,7 @@
 <body>
 
 	<!--menu aparece em tamanho menor de tela, xs-->
-	<nav class="navbar visible-xs">
-		<div class="container">
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default visible-xs">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 						<span class="icon-bar"></span>
@@ -40,10 +39,9 @@
 					</ul>
 				</div>	
 			</nav>
-		</div>
-	</nav>
 	
-	<!--navbar aparece em tamanhos maiores de tela, mas desaparece no tamnho xs-->
+	
+	<!--navbar aparece em tamanhos maiores de tela, mas não desaparece no tamnho xs-->
 	<nav class="navbar hidden-xs">
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="active"><a href="#">Home</a></li>
