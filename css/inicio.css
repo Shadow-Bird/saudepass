@@ -1,0 +1,73 @@
+body {
+	
+}
+
+header {
+	background-color: rgb(30,115,115);
+	box-shadow: 0px 0px 3px 1px rgb(0,0,0);
+}
+
+header h1{
+	font-size: 8.0em;
+	font-weight: 400;
+	color: rgb(236,240,241);
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+	padding: 2px 0px 7.5px 0px;
+	float: left;
+	position: relative;
+	left: 25px;
+}
+
+.btnHeaderPainel img{
+	position: relative;
+	top: 1px;
+}
+
+.btnHeaderConta img{
+	position: relative;
+	top: 2px;
+}
+
+.btnHeaderConta {
+	padding: 7px;
+	right: 30px;
+}
+
+.btnHeaderPainel {
+	padding: 5px;
+	right: 45px;
+}
+
+.btnHeader {
+	width: 120px;
+	background-color: rgba(0,0,0,0.25);
+	float: right;
+	position: relative;
+	top: 8.5px;
+	border-radius: 2px;
+	border-width: 2px;
+	border-style: groove;
+	border-color: rgba(236,240,241,.55);
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.DescBtnConta{
+	position: relative;
+	right: 3px;
+}
+
+.DescBtn{
+	font-size: 5.0em;
+	color: rgb(236,240,241);
+	padding: 8px 0px 8px 5px;
+}
+
+.DescBtnAdm {
+	position: relative;
+	bottom: 3px;
+}
+
+.btnHeader:hover{
+	transform: scale(0.95);
+}
