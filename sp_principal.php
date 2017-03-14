@@ -40,8 +40,7 @@
 				</div>	
 			</nav>
 	
-	
-	<!--navbar aparece em tamanhos maiores de tela, mas não desaparece no tamnho xs-->
+	<!--navbar aparece em tamanhos maiores de tela, mas desaparece no tamnho xs-->
 	<nav class="navbar hidden-xs">
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="active"><a href="#">Home</a></li>
