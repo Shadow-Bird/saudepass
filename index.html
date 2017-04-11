@@ -1,30 +1,46 @@
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="row content">
-			<div class="col-sm-12">
-				<form id="loginForm">
-					<h2>SaudePass</h2>
-					<h5>Entre com seu usuário e senha</h5>					
-					<p>
-					<input class="inputLogin" type="text" name="logUsuario" placeholder="Usuário">
-						<br><br>	
-					<input class="inputLogin" type="password" name="logSenha" placeholder="********">
-						<br><br>	
-					<button id="btnLogin" type="button" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-in"></span>  Login</button>
-					</p>
-				</form>
-			</div>
-		</div>
-	</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>SaudePass</title>
 
-</body>
+    	<meta charset="utf-8"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<meta name="description" content="Sistema de gerenciamento de clínicas."/>
+    	<meta name="author" content="Márcio Contreiras e Felipe Torresini"/>
+        
+        <link rel="icon" href=""/>
+
+        <!-- #################### CSS #################### --> 
+    	<link rel="stylesheet" href="css/global.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
+
+        <?php
+        @include 'scr_php\saiu.php';
+        ?>
+
+    </head>
+    <body>
+
+
+
+        <!-- #################### LOGIN #################### -->  
+        <section class="container">
+            <div class="caixaLogin">
+                <img src="resources/asterisco_v.svg" width="21px" height="21px" alt="Asterisco" class="asterisco_logo"/>
+                <h1 class="tituloLogin">SAUDEPASS</h1>
+                <form method="POST" action="login.php">
+                    <input type="text" id="login" class="campo" name="login" placeholder="Digite o usuário" required autofocus/>
+                    <br/>
+                    <input type="password" id="senha" class="campo" name="senha" placeholder="Digite a senha" required/>
+                    <br/>
+                    <input type="submit" id="logar" value="Acessar"/>
+                </form>
+            </div>
+        </section>
+
+        <?php
+        include 'scr_php\erro.php';
+        ?>
+
+    </body>
 </html>

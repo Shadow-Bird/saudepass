@@ -1,0 +1,293 @@
+header{
+    height: 48px;
+    background-color: rgb(25,111,89);
+    width: 100%;
+    position:absolute;
+    box-shadow: 1px 2px 5px rgb(40,40,40);
+    z-index: 2;
+}
+
+.asterisco{
+    position: relative;
+    float: left;
+    top: 14px;
+}
+
+header h1{
+    font-size: 2.2em;
+    color: rgb(242,242,242);
+    text-shadow: 0px 0px 1px rgb(130,130,130);
+    position: relative;
+    letter-spacing: 1px;
+    width: 20%;
+    float: left;
+    top: 8.25px;
+    left: 8px;
+}
+
+.logo{  
+    left: 25px;
+    position: relative;
+    width: 50%;
+}
+
+.padmin{
+    width: 118px;
+    height: 32px;
+    background-color: rgb(250,250,250);
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 8px;
+    box-shadow: 1px 2px 5px rgba(50,50,50,.7);
+    padding: 5px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.admin_img{
+    position: relative;
+    top: 1px;
+}
+
+.padmin h6{
+    float:right;
+    font-size: 1.2em;
+    position: relative;
+    top: 2.25px;
+    color: rgb(60,60,60);
+}
+
+.padmin:hover{
+    transform: scale(0.95);
+}
+
+.container_pagina{
+    float: left;
+    min-height:100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.pagina_menu{
+    width: 14%;
+}
+
+.menu_lateral{
+    min-height: 100%;
+    width: 100%;
+    top: 48px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(25,111,89);
+    border-right-style: ridge;
+    border-right-color: rgba(0,0,0,.1);
+    border-right-width: 1px;
+}
+
+.img{
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    left: 45%;
+    position: absolute;
+    margin-left: -57.5px;
+    background-color: rgb(250,250,250);
+    z-index: 3;
+    top: 20px;
+    box-shadow: 0px 0px 5px rgb(50,50,50);
+}
+
+.opcao{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    border-top-color: rgba(220,220,220,.9);
+    border-top-style: groove;
+    border-top-width: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.select {
+     width: 100%;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    border-top-color: rgba(220,220,220,.9);
+    border-top-style: groove;
+    border-top-width: 2px;
+    cursor: pointer;
+    background-color: rgb(50,50,50);
+}
+
+.img_opcao{
+    position: relative;
+    top: 9px;
+    left: 8px;
+    float: left;
+}
+
+.opcao h5{
+    position: relative;
+    font-size: 1.5em;
+    float: left;
+    color: rgb(242,242,242);
+    left: 15px;
+    top: 8px;
+    letter-spacing: 1px;
+}
+
+.select h5{
+    left: 15px;
+    top: 8px;
+    letter-spacing: 1px;
+    color: rgb(240,91,74);
+    position: relative;
+    font-size: 1.5em;
+    float: left;
+}
+
+.ultima_opcao{
+    border-bottom-color: rgba(220,220,220,.9);
+    border-bottom-style: groove;
+    border-bottom-width: 2px;
+}
+
+.receita_img{
+    top: 7px;
+}
+
+.opcao:hover{
+    background-color: rgb(55,55,55);
+}
+
+.pagina_conteudo{
+    width: 86%;
+}
+
+.conteudo_lateral{
+    min-height: 100%;
+    width: 100%;
+    top: 48px;
+    position: absolute;
+    z-index: 1;
+}
+
+.titulo{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250,250,250);
+    box-shadow: 3px 1px 4px rgba(50,50,50,.5);
+    position: absolute;
+    z-index: 3;
+}
+
+.info_img{
+    position: relative;
+    top: 15px;
+    left: 25px;
+    float: left;
+}
+
+.titulo h1{
+    font-size: 2.5em;
+    color: rgb(60,60,60);
+    float: left;
+    position: relative;
+    left: 32px;
+    top: 8px;
+}
+
+.conteudo{
+    background-color: rgba(25,111,89,.05);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 2;
+}
+
+.pagina {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 50px;
+}
+
+form{
+	width:90%;
+	background-color: rgb(250,250,250);
+	position: relative;
+	top: 50px;
+	left: 5%;
+	padding: 30px 8px 8px 8px;
+	border-radius: 1px;
+	box-shadow: 1px 1px 8px rgb(50,50,50);
+}
+
+label{
+	font-size: 2em;
+	font-weight: 700;
+	color: rgb(55,55,55);
+	margin-left: 40px;
+}
+
+.campo{
+	background-color: rgba(255,255,255,.0);
+	border-bottom-color: rgb(50,50,50);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	font-size: 1.8em;
+	border-radius: 2px;
+	float: left;
+	margin-top: -7px;
+	width: 120%;
+	margin-right: 55px;
+    padding-bottom: 4px;
+}
+
+.campo:hover{
+	border-bottom-color: rgb(25,111,89);
+}
+
+td {
+	padding: 15px;
+}
+
+.text_area{
+	border-color: rgb(50,50,50);
+	border-style: solid;
+	border-width: 2px;
+	width: 326%;
+	height: 60px;
+	resize: none;
+	padding: 10px;
+	font-size: 1.6em;
+}
+
+.text_area:hover{
+	border-color: rgb(25,111,89);
+}
+
+.btn {
+	text-transform: uppercase;
+	background-color: rgba(1, 96, 71, 0.8);
+	padding: 20px;
+	font-weight: 700;
+	margin-top: 20px; 
+	margin-bottom: 35px; 
+	border-radius: 5px;
+	width: 100%; 
+	color: rgb(253,253,253);
+	letter-spacing: 1px; 
+	cursor: pointer;
+	font-size: 1.3em;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.btn:hover {
+	background-color: rgba(1, 96, 71, 0.9);
+	box-shadow: 0px 0px 2px rgb(70,70,70);
+}
